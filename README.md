@@ -48,5 +48,4 @@ A clean, responsive, multi-page portfolio built with high-performance vanilla HT
 
 ## 📬 Contact Aadi Tyagi
 - **Email:** [aadityagi1232@gmail.com](mailto:aadityagi1232@gmail.com)
-- **GitHub:** [@aadityagi24](https://github.com/aadityagi24)
 - **Phone:** +91 7409084392
