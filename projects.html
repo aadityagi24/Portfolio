@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aadi Tyagi — Featured Software Engineering Projects. Enterprise ERP, WebRTC, and MERN applications.">
+  <title>Projects | Aadi Tyagi</title>
+
+  <!-- Google Fonts: Poppins & Caveat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+
+  <!-- Unique Animated Page Loader (Projects: Spinning Code Bracket) -->
+  <div class="page-loader" id="pageLoader">
+    <i class="fa-solid fa-code loader-projects"></i>
+    <span class="loader-text">Loading Engineering Projects...</span>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="header-nav" id="headerNav">
+    <div class="nav-container">
+      <a href="index.html" class="brand-signature">
+        <span class="brand-code-bracket">&lt;</span>
+        <span>Aadi Tyagi</span>
+        <span class="brand-code-bracket">/&gt;</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="education.html" class="nav-link">Education</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Switcher & Mobile Toggle -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle theme" title="Toggle Dark/Light Mode">
+          <i class="fa-solid fa-moon theme-icon-moon"></i>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-link">Home</a>
+    <a href="education.html" class="mobile-link">Education</a>
+    <a href="experience.html" class="mobile-link">Experience</a>
+    <a href="projects.html" class="mobile-link active">Projects</a>
+    <a href="contact.html" class="mobile-link">Contact Me</a>
+  </div>
+
+  <main class="page-section">
+    <div class="container">
+      
+      <!-- Page Hero Banner (Ashutosh Style) -->
+      <div class="page-hero-banner">
+        
+        <!-- Left Illustration: 2 Expressive Cartoon Developers with Fully Visible Faces -->
+        <div class="page-hero-art scroll-reveal-left">
+          <div class="illustration-wrap" style="max-width: 520px;">
+            <svg viewBox="0 0 500 380" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
+              <!-- Background Ambient Cloud Glow -->
+              <ellipse cx="250" cy="190" rx="230" ry="140" fill="#E2F3FB"/>
+              <ellipse cx="250" cy="350" rx="230" ry="20" fill="rgba(0, 28, 85, 0.08)"/>
+
+              <!-- ========================================================
+                   CARTOON 1: DEVOPS ENGINEER LAUNCHING PRODUCTION ROCKET
+                   ======================================================== -->
+              <g class="new-standing-cartoon">
+                <!-- Miniature Server Rack & Cloud Console -->
+                <rect x="50" y="240" width="70" height="110" rx="6" fill="#001C55"/>
+                <rect x="58" y="250" width="54" height="18" rx="2" fill="#00143D"/>
+                <circle cx="66" cy="259" r="3" fill="#10B981"/>
+                <circle cx="76" cy="259" r="3" fill="#38BDF8"/>
+                <rect x="58" y="275" width="54" height="18" rx="2" fill="#00143D"/>
+                <circle cx="66" cy="284" r="3" fill="#10B981"/>
+                <circle cx="76" cy="284" r="3" fill="#F59E0B"/>
+                <rect x="58" y="300" width="54" height="18" rx="2" fill="#00143D"/>
+                <circle cx="66" cy="309" r="3" fill="#10B981"/>
+
+                <!-- Production Launch Rocket taking flight -->
+                <g class="anim-celebrate-jump">
+                  <path d="M90 120 Q90 90 100 70 Q110 90 110 120 Z" fill="#EF4444"/>
+                  <rect x="93" y="120" width="14" height="26" rx="2" fill="#FFFFFF" stroke="#001C55" stroke-width="1.5"/>
+                  <circle cx="100" cy="130" r="3.5" fill="#1877F2"/>
+                  <!-- Wings -->
+                  <path d="M93 136 L85 146 L93 144 Z" fill="#EF4444"/>
+                  <path d="M107 136 L115 146 L107 144 Z" fill="#EF4444"/>
+                  <!-- Rocket Flame -->
+                  <path d="M96 146 Q100 164 104 146 Z" fill="#F59E0B" class="anim-rocket-flame"/>
+                </g>
+
+                <!-- Engineer Standing by Console -->
+                <!-- Legs -->
+                <path d="M135 260 L135 340" stroke="#001C55" stroke-width="15" stroke-linecap="round"/>
+                <path d="M160 260 L160 340" stroke="#1E3A8A" stroke-width="15" stroke-linecap="round"/>
+                <ellipse cx="131" cy="345" rx="12" ry="6" fill="#00143D"/>
+                <ellipse cx="164" cy="345" rx="12" ry="6" fill="#001C55"/>
+
+                <!-- Torso / Teal Hoodie -->
+                <path d="M122 190 C135 178 170 178 180 190 L175 265 C157 270 137 270 127 265 Z" fill="#059669"/>
+                <line x1="151" y1="185" x2="151" y2="262" stroke="#D1FAE5" stroke-width="2.5" stroke-linecap="round"/>
+
+                <!-- Right arm pressing launch button -->
+                <path d="M130 205 L98 238" stroke="#059669" stroke-width="9" stroke-linecap="round"/>
+                <circle cx="96" cy="240" r="4.5" fill="#FBCFE8"/>
+
+                <!-- Head & FULLY VISIBLE HAPPY DEV FACE -->
+                <rect x="145" y="162" width="10" height="15" fill="#FBCFE8"/>
+                <circle cx="150" cy="146" r="19" fill="#FBCFE8"/>
+                <!-- Hair -->
+                <path d="M133 142 C133 122 150 118 167 124 C175 128 177 136 173 142 C160 136 145 136 135 144 Z" fill="#001C55"/>
+                <!-- Glasses -->
+                <rect x="141" y="140" width="8" height="8" rx="2" fill="none" stroke="#001C55" stroke-width="1.8"/>
+                <rect x="151" y="140" width="8" height="8" rx="2" fill="none" stroke="#001C55" stroke-width="1.8"/>
+                <line x1="149" y1="144" x2="151" y2="144" stroke="#001C55" stroke-width="1.8"/>
+                <!-- Eyes & Smile -->
+                <circle cx="145" cy="144" r="1.5" fill="#001C55"/>
+                <circle cx="155" cy="144" r="1.5" fill="#001C55"/>
+                <path d="M146 152 Q150 157 154 152" stroke="#001C55" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+                <circle cx="140" cy="148" r="2.5" fill="#F472B6" opacity="0.8"/>
+                <circle cx="160" cy="148" r="2.5" fill="#F472B6" opacity="0.8"/>
+              </g>
+
+              <!-- ========================================================
+                   CARTOON 2: DANCING & ENJOYING APP TESTER
+                   ======================================================== -->
+              <g class="anim-dancing-cartoon">
+                <!-- Ground Contact Shadow -->
+                <ellipse cx="380" cy="355" rx="30" ry="6" fill="rgba(0, 28, 85, 0.15)"/>
+
+                <!-- Dancing / Foot Tapping Legs -->
+                <path d="M366 255 L360 340" stroke="#1E3A8A" stroke-width="15" stroke-linecap="round"/>
+                <path d="M392 255 L404 320 L414 340" stroke="#001C55" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+                <ellipse cx="357" cy="344" rx="13" ry="7" fill="#00143D"/>
+                <ellipse cx="418" cy="344" rx="13" ry="7" fill="#001C55"/>
+
+                <!-- Torso / Warm Orange Hoodie -->
+                <path d="M350 185 C365 172 405 172 420 185 L414 265 C396 270 374 270 356 265 Z" fill="#F59E0B"/>
+                <line x1="385" y1="180" x2="385" y2="262" stroke="#FEF3C7" stroke-width="2.5" stroke-linecap="round"/>
+
+                <!-- Left Arm holding smartphone testing the app -->
+                <path d="M362 198 L344 225 L354 235" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+                <rect x="350" y="225" width="14" height="22" rx="3" fill="#001C55" stroke="#FFFFFF" stroke-width="1.2"/>
+                <circle cx="357" cy="243" r="1.5" fill="#FFFFFF"/>
+
+                <!-- Right Arm raised in dance groove -->
+                <g class="anim-dance-arms">
+                  <path d="M412 198 Q434 175 439 155" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+                  <circle cx="439" cy="153" r="5.5" fill="#FBCFE8"/>
+                </g>
+
+                <!-- Head & FULLY VISIBLE JOYFUL TESTER FACE WITH CAP -->
+                <rect x="380" y="160" width="10" height="15" fill="#FBCFE8"/>
+                <circle cx="385" cy="142" r="19" fill="#FBCFE8"/>
+                <!-- Stylish Backward Snapback Cap -->
+                <path d="M365 138 C365 120 385 116 403 120 C411 124 413 132 409 140 C395 134 380 134 367 142 Z" fill="#001C55"/>
+                <rect x="403" y="132" width="14" height="5" rx="2" fill="#001C55" transform="rotate(15 403 132)"/>
+                <!-- Happy Singing/Grooving Eyes (^ ^) -->
+                <path d="M373 138 Q377 133 381 138" stroke="#001C55" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+                <path d="M389 138 Q393 133 397 138" stroke="#001C55" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+                <!-- Wide Cheerful Open Smile -->
+                <path d="M377 146 Q385 156 393 146" stroke="#001C55" stroke-width="2" fill="#EF4444"/>
+                <circle cx="371" cy="144" r="3" fill="#F472B6" opacity="0.8"/>
+                <circle cx="399" cy="144" r="3" fill="#F472B6" opacity="0.8"/>
+
+                <!-- Floating Music & Star Notes -->
+                <text x="425" y="120" fill="#1877F2" font-size="16" font-weight="bold" class="anim-music-note">♪</text>
+                <text x="440" y="100" fill="#059669" font-size="18" font-weight="bold" class="anim-music-note delay-1">★</text>
+              </g>
+
+              <!-- Ambient Floating Tech Stars & Pluses -->
+              <text x="240" y="90" fill="#1877F2" font-size="20" font-weight="bold">+</text>
+              <text x="270" y="130" fill="#F59E0B" font-size="18" font-weight="bold">✦</text>
+              <circle cx="45" cy="170" r="5" fill="#10B981"/>
+              <circle cx="460" cy="180" r="6" fill="#EF4444"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Right Text Header -->
+        <div class="page-hero-text">
+          <h1 class="page-main-title scroll-reveal-top">Projects</h1>
+          <h2 class="page-subtitle scroll-reveal-right delay-1">Software Architecture &amp; Production Applications</h2>
+          <p class="page-desc scroll-reveal-right delay-2">
+            A curated portfolio of software applications I have built and deployed, spanning multi-tenant logistics ERPs, browser-native WebRTC video systems, and high-concurrency MERN commerce engines.
+          </p>
+
+          <div class="scroll-reveal-bottom delay-3" style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <span style="background: var(--bg-card); border: 1px solid var(--border-card); padding: 8px 16px; border-radius: var(--r-full); font-size: 0.88rem; font-weight: 700; color: var(--text-dark);">
+              🚀 6+ Shipped Apps
+            </span>
+            <span style="background: var(--bg-card); border: 1px solid var(--border-card); padding: 8px 16px; border-radius: var(--r-full); font-size: 0.88rem; font-weight: 700; color: var(--text-dark);">
+              ⚡ Real-Time Systems &amp; ERPs
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PROJECTS CARDS GRID (Ashutosh Style) -->
+      <h2 class="degrees-section-title scroll-reveal-top">Featured Works</h2>
+
+      <div class="projects-cards-grid">
+        
+        <!-- Project 1: LocalMoves -->
+        <article class="ashutosh-proj-card scroll-reveal-left delay-1">
+          <div class="proj-card-top">
+            <i class="fa-solid fa-truck-fast proj-card-icon" style="color: #1877F2;"></i>
+            <h3 class="proj-card-name">LocalMoves</h3>
+          </div>
+          <span class="proj-card-tag">Enterprise Logistics &amp; ERP</span>
+          <p class="proj-card-desc">
+            Multi-tenant relocation logistics platform with three role-segregated portals: Customer Self-Service, Fleet Mover Dispatch, and Super Admin Management. Features automated dynamic pricing algorithms calculating travel distance, inventory volume, and crew labor.
+          </p>
+          <div class="proj-card-bottom">
+            <div class="proj-tech-icons">
+              <i class="fa-brands fa-react" title="React.js" style="color: #61DAFB;"></i>
+              <i class="fa-brands fa-python" title="Python" style="color: #3776AB;"></i>
+              <i class="fa-solid fa-database" title="MariaDB" style="color: #001C55;"></i>
+              <i class="fa-solid fa-network-wired" title="REST APIs" style="color: #10B981;"></i>
+            </div>
+            <span class="proj-badge-pill">React &middot; Frappe &middot; Python</span>
+          </div>
+          <div class="proj-card-actions">
+            <a href="https://local-moves-frontend-phi.vercel.app/" target="_blank" rel="noopener" class="proj-action-btn proj-btn-live">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2: GoDevelopers Space -->
+        <article class="ashutosh-proj-card scroll-reveal-top delay-2">
+          <div class="proj-card-top">
+            <i class="fa-solid fa-laptop-code proj-card-icon" style="color: #F59E0B;"></i>
+            <h3 class="proj-card-name">GoDevelopers</h3>
+          </div>
+          <span class="proj-card-tag">Developer Platform &amp; Ecosystem</span>
+          <p class="proj-card-desc">
+            Interactive developer platform and learning ecosystem empowering engineers to build, debug, and ship production-grade software. Features structured engineering chapters, real-world bug tracing, interactive terminal simulations, and open-source contribution tracking.
+          </p>
+          <div class="proj-card-bottom">
+            <div class="proj-tech-icons">
+              <i class="fa-brands fa-react" title="Next.js / React" style="color: #61DAFB;"></i>
+              <i class="fa-brands fa-node-js" title="Node.js" style="color: #68A063;"></i>
+              <i class="fa-brands fa-js" title="TypeScript &amp; JavaScript" style="color: #F7DF1E;"></i>
+              <i class="fa-solid fa-layer-group" title="Full Stack" style="color: #1877F2;"></i>
+            </div>
+            <span class="proj-badge-pill">Next.js &middot; Full Stack &middot; Sockets</span>
+          </div>
+          <div class="proj-card-actions">
+            <a href="https://godevelopers.space/" target="_blank" rel="noopener" class="proj-action-btn proj-btn-live">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 3: QuickCart / Rajkanwari -->
+        <article class="ashutosh-proj-card scroll-reveal-right delay-3">
+          <div class="proj-card-top">
+            <i class="fa-solid fa-bag-shopping proj-card-icon" style="color: #EA580C;"></i>
+            <h3 class="proj-card-name">QuickCart / Rajkanwari</h3>
+          </div>
+          <span class="proj-card-tag">E-Commerce &amp; Payment Engine</span>
+          <p class="proj-card-desc">
+            Full-featured modern e-commerce platform and luxury retail storefront with curated collections, dynamic cart &amp; checkout workflows, integrated Razorpay payment gateway, and high-concurrency order processing.
+          </p>
+          <div class="proj-card-bottom">
+            <div class="proj-tech-icons">
+              <i class="fa-brands fa-react" title="React.js" style="color: #61DAFB;"></i>
+              <i class="fa-brands fa-node-js" title="Node.js" style="color: #68A063;"></i>
+              <i class="fa-solid fa-credit-card" title="Razorpay Checkout" style="color: #2563EB;"></i>
+              <i class="fa-solid fa-leaf" title="MongoDB" style="color: #47A248;"></i>
+            </div>
+            <span class="proj-badge-pill">React &middot; Razorpay &middot; Node.js</span>
+          </div>
+          <div class="proj-card-actions">
+            <a href="https://rajkanwari.up.railway.app/" target="_blank" rel="noopener" class="proj-action-btn proj-btn-live">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 4: Klimart -->
+        <article class="ashutosh-proj-card scroll-reveal-left delay-1">
+          <div class="proj-card-top">
+            <i class="fa-solid fa-compass-drafting proj-card-icon" style="color: #7C3AED;"></i>
+            <h3 class="proj-card-name">Klimart</h3>
+          </div>
+          <span class="proj-card-tag">Architecture CMS &amp; Portfolio</span>
+          <p class="proj-card-desc">
+            Visual portfolio and content management system tailored for architectural blueprints, spatial renderings, and case studies. Built with progressive image hydration, fluid responsive CSS grid, and client inquiry pipelines.
+          </p>
+          <div class="proj-card-bottom">
+            <div class="proj-tech-icons">
+              <i class="fa-brands fa-react" title="React.js" style="color: #61DAFB;"></i>
+              <i class="fa-brands fa-node-js" title="Node.js" style="color: #68A063;"></i>
+              <i class="fa-solid fa-leaf" title="MongoDB" style="color: #47A248;"></i>
+              <i class="fa-solid fa-layer-group" title="Express" style="color: #001C55;"></i>
+            </div>
+            <span class="proj-badge-pill">React &middot; Node &middot; Mongo</span>
+          </div>
+          <div class="proj-card-actions">
+            <a href="https://www.klimart.in/" target="_blank" rel="noopener" class="proj-action-btn proj-btn-live">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 5: Anonymous Request System / AnonymChat -->
+        <article class="ashutosh-proj-card scroll-reveal-bottom delay-2">
+          <div class="proj-card-top">
+            <i class="fa-solid fa-user-secret proj-card-icon" style="color: #0F172A;"></i>
+            <h3 class="proj-card-name">Anonymous Request System / AnonymChat</h3>
+          </div>
+          <span class="proj-card-tag">Privacy &amp; Confidential Portal</span>
+          <p class="proj-card-desc">
+            Enterprise-grade confidential request system and real-time anonymous messaging portal. Engineered for zero-knowledge privacy, identity-free ticket tracking, and secure bi-directional WebSocket relays.
+          </p>
+          <div class="proj-card-bottom">
+            <div class="proj-tech-icons">
+              <i class="fa-brands fa-node-js" title="Node.js" style="color: #68A063;"></i>
+              <i class="fa-solid fa-bolt" title="Socket.io" style="color: #F59E0B;"></i>
+              <i class="fa-brands fa-react" title="React.js" style="color: #61DAFB;"></i>
+              <i class="fa-solid fa-lock" title="Zero-Knowledge" style="color: #10B981;"></i>
+            </div>
+            <span class="proj-badge-pill">Sockets &middot; Tailwind &middot; Node.js</span>
+          </div>
+          <div class="proj-card-actions">
+            <a href="https://anonymchat.ch/" target="_blank" rel="noopener" class="proj-action-btn proj-btn-live">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 6: DropZone -->
+        <article class="ashutosh-proj-card scroll-reveal-forward delay-3">
+          <div class="proj-card-top">
+            <i class="fa-solid fa-cloud-arrow-up proj-card-icon" style="color: #0284C7;"></i>
+            <h3 class="proj-card-name">DropZone</h3>
+          </div>
+          <span class="proj-card-tag">Cloud File Distribution</span>
+          <p class="proj-card-desc">
+            Scalable file distribution platform supporting multi-part stream uploads via Multer, cryptographic download tokens, configurable expiration lifespans, and strict MIME type verification.
+          </p>
+          <div class="proj-card-bottom">
+            <div class="proj-tech-icons">
+              <i class="fa-brands fa-node-js" title="Node.js" style="color: #68A063;"></i>
+              <i class="fa-solid fa-box-open" title="Multer" style="color: #E11D48;"></i>
+              <i class="fa-solid fa-leaf" title="MongoDB" style="color: #47A248;"></i>
+              <i class="fa-brands fa-react" title="React.js" style="color: #61DAFB;"></i>
+            </div>
+            <span class="proj-badge-pill">Node &middot; Multer &middot; Stream</span>
+          </div>
+          <div class="proj-card-actions">
+            <a href="https://dropzone-files.vercel.app" target="_blank" rel="noopener" class="proj-action-btn proj-btn-live">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Master Footer -->
+  <footer class="master-footer">
+    <div class="container footer-inner">
+      <div class="footer-author">
+        Developed with <span style="color: #ef4444;">❤</span> by <strong>Aadi Tyagi</strong>
+      </div>
+      <div class="footer-links">
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="education.html" class="footer-link">Education</a>
+        <a href="experience.html" class="footer-link">Experience</a>
+        <a href="projects.html" class="footer-link">Projects</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
