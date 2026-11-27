@@ -31,7 +31,7 @@ A clean, responsive, multi-page portfolio built with high-performance vanilla HT
 ├── style.css           # Complete design system, themes, and animations
 ├── script.js           # Theme engine, parallax, navigation & form handling
 ├── vercel.json         # Vercel deployment configuration
-└── Aadi Resume.pdf     # Official downloadable resume
+└── Aadi Resume N.pdf   # Official downloadable resume
 ```
 
 ---
