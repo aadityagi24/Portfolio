@@ -40,7 +40,6 @@ A clean, responsive, multi-page portfolio built with high-performance vanilla HT
 - **[LocalMoves](https://local-moves-frontend-phi.vercel.app/)** — Multi-tenant relocation logistics ERP.
 - **[GoDevelopers](https://godevelopers.space/)** — Interactive developer platform & learning ecosystem.
 - **[QuickCart / Rajkanwari](https://rajkanwari.up.railway.app/)** — Curated lifestyle e-commerce with Razorpay checkout.
-- **[Klimart](https://www.klimart.in/)** — Architectural blueprints & spatial design CMS portfolio.
 - **[Anonymous Request System](https://anonymchat.ch/)** — Zero-knowledge confidential request & messaging portal.
 - **[DropZone](https://dropzone-files.vercel.app)** — Cloud stream distribution platform.
 
